@@ -1,0 +1,503 @@
+/*
+Theme Name: Ù…Ù…Ù„ÙƒØ© Ø§Ù„Ø¨Ø±Ø§Ù…Ø¬ - ØªØ­Ù…ÙŠÙ„ Ø¨Ø±Ø§Ù…Ø¬ ÙƒÙ…Ø¨ÙŠÙˆØªØ± - ØªÙ†Ø²ÙŠÙ„ Ø¨Ø±Ø§Ù…Ø¬ Ù…ÙˆØ¨Ø§ÙŠÙ„
+Theme URI: http://mostaql.com/u/code102
+Author: Ahmed Taher
+Author URI: http://mostaql.com/u/code102
+Description:  Ù…Ù…Ù„ÙƒØ© Ø§Ù„Ø¨Ø±Ø§Ù…Ø¬ Ù‡Ùˆ Ù…ÙˆÙ‚Ø¹ Ù„ØªØ­Ù…ÙŠÙ„ Ø§Ù„Ø¨Ø±Ø§Ù…Ø¬ ÙˆØ§Ù„Ø§Ù„Ø¹Ø§Ø¨ ÙˆØ§Ù„ØªØ·Ø¨ÙŠÙ‚Ø§Øª Ø§Ù„Ø®Ø§ØµÙ‡ Ø¨Ø§Ù„Ù‡ÙˆØ§ØªÙ Ø§Ù„Ù…Ø­Ù…ÙˆÙ„Ù‡
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: Ø¨Ø±Ø§Ù…Ø¬ , Ø§Ù„Ø¹Ø§Ø¨, ØªØ­Ù…ÙŠÙ„, ØªØ·Ø¨ÙŠÙ‚Ø§Øª , Ø´Ø±ÙˆØ­Ø§Øª , ØªØ³Ø¬ÙŠÙ„Ø§Øª
+Text Domain: Ahmed Taher
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url(http://fonts.googleapis.com/earlyaccess/notokufiarabic.css);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
+
+html{
+  margin-top: 0px !important ;
+}
+
+body{
+ text-align: center;
+ font-family: 'Noto Kufi Arabic', sans-serif;
+ 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+p {
+  
+}
+
+li {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #22C0F1;
+}
+
+img {
+  border: 1px solid #ccc;
+}
+
+input {
+  margin: 5px;
+}
+
+.gsc-search-button input[type=image] {
+    width: 50px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+ /* start header code */
+
+.header {
+  background: #F5F5F5;
+}
+
+.header .logo {
+  padding: 15px;
+  
+}
+
+.header .logo h2 {
+  color: #0652B0;
+  font-size: 25px
+}
+
+.header .logo p {
+  color: #000;
+  font-size: 18px;
+}
+
+.search {
+  margin-top: 3%;
+}
+
+.search .icon{
+  position: absolute;
+  top: -30%;
+  left: 15px;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #ddd;
+  cursor: pointer;
+}
+
+/* end header code */
+
+/* start menu code */
+
+.menu {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+}
+
+.menu-st li {
+  display: block;
+  float: right;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+   
+}
+
+.menu-st li:hover {
+  background-color: #fcfcfc;
+}
+
+.menu-st li a {
+  font-size: 12px;
+  color: #22C0F1;
+  text-decoration: none;
+}
+
+/* end menu code */
+
+/* advertising after menu */
+
+.ads-after-menu {
+  padding: 10px;
+}
+
+/* end advertising after menu */
+
+/* start content */
+
+.content-body {
+  background-color: #f7f7f7;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+}
+
+.content-body .desktop{
+  display: block;		
+}
+
+.content-body .mobile {
+  display: none;		
+}
+
+ /* right category */
+.right-prog,
+.right-phone,
+.right-other {
+  background-color: #fff;
+  text-align: right;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.right-prog h2,
+.post-rate h2 {
+  color: #fff;
+  text-align: right;
+  background-color: #22C0F1;
+  font-size: 12px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.progs li a {
+  text-align: right;
+  color: #000;
+  line-height: 1.5;
+  font-size: 12px;
+}
+/*end right category */
+/* start content post body */
+.post h3 {
+  color: #22C0F1;
+  font-size: 15px;
+  text-align: right;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+/* category one games */
+.cat1-post,
+.cat2-post {
+  background-color: #fff;
+  padding: 25px;
+  border: 1px solid #ccc;
+}
+
+.cat1-post img {
+  width: 80px;
+  height: 80px;
+}
+
+.more {
+  padding: 10px;
+  color: #000;
+  background-color: #f5f5f5;
+  float: left;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+/* category tow programs */
+.media {
+  text-align: right;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 10px;
+}
+
+.media-left .media-object {
+  width: 50px;
+  height: 50px;
+}
+
+.media h4 a {
+  font-size: 14px;
+}
+
+.media-body {
+  color: #777171;
+  font-size: 12px;
+}
+
+/* end content post body */
+
+/* start left sidebar */
+
+.blog-rate li,
+.right-prog li,
+.post-rate li  {
+  border-bottom: 1px dotted #ccc;
+  padding: 5px;
+  margin: 5px;
+}
+
+ /* follow */
+.follow,
+.post-rate,
+.post-meta {
+  background-color: #fff;
+  text-align: right;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.follow h3,
+.post-rate h3 {
+  color: #fff;
+  text-align: right;
+  background-color: #22C0F1;
+  font-size: 12px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.follow .social li {
+  padding: 10px;
+  display: inline;
+}
+
+.follow .social li a {
+  text-decoration: none;
+}
+
+.follow .social li a img {
+  border: none;
+}
+/* end follow */
+/* start post rated height in left */
+.blog-rate {
+  padding: 5px;
+}
+
+.blog-rate .media .media-left {
+  width: 40px;
+  height: 40px;
+}
+
+.blog-rate .media h4 a {
+  font-size: 12px;
+
+}
+/* end post rated height in left */ 
+/* start ads left */
+.ads-left,
+.ads-right {
+  text-align: center;
+  padding: 5px;
+}
+
+.ads-left img {
+  width: 300px;
+  height: 200px;
+}
+
+.ads-rght img {
+  width: 200px;
+  height: 200px;
+}
+/*end ads left */
+/* end left sidebar */
+
+/* start footer */
+
+.footer {
+  background-color: #f5f5f5;
+  text-align: right;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+}
+
+.footer p {
+  font-size: 12px;
+}
+
+/* end content */
+
+/* end home page */
+
+/* start single post */
+
+.post-meta {
+  padding: 10px;
+}
+
+.post-meta .post-ads {
+  padding: 10px;
+  border-bottom: 1px dotted #ccc;
+}
+
+.post-meta .post-ads img {
+  text-align: center;
+  width: 300px;
+  height: 250px;
+}
+
+.post-content img {
+  width: 300px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.post-meta .post-down p {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.table-download {
+  border: 1px dotted #ccc;
+  padding: 10px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.table-download td {
+  border: 1px dotted #ccc;
+  padding: 10px;
+}
+
+.table-download td:first-child{
+  background-color: #ccc;
+  border: 1px dotted #22C0F1;
+}
+
+.post-ads-down {
+  margin: 10px;
+  padding: 10px;
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+}
+
+.post-cate {
+  border-bottom: 1px dotted #ccc;
+}
+
+.post-cate p {
+  font-weight: 600;
+}
+
+.share {
+  text-align: center;
+  padding: 10px;
+}
+
+.post-meta .post-rate {
+  padding: 10px;
+}
+
+.tagcloud {
+  padding: 10px
+}
+
+.link {
+  text-align: center;
+  cursor: pointer;
+  color: #22C0F1; 
+  
+}
+
+#download {
+
+   display: none;
+
+}
+
+/* end single post */
+
+
+     /* start media query */
+    
+@media(max-width:768px){
+  
+.link {
+ 
+ display: none;
+
+}  
+
+#download {
+
+   display: block;
+
+}
+  
+.content-body .mobile {
+  display: block;
+}
+
+
+.content-body .desktop{
+  display: none;
+}
+
+.post .cat1 h5 {
+  font-size: 12px;
+}
+
+.post .cat1 .col-xs-4 {
+  height: 250px;	
+} 
+
+}
+
+     /* end media query */   
+
+ 
+/*
+     FILE ARCHIVED ON 22:41:52 Jun 03, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:16:59 Mar 08, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.577
+  exclusion.robots: 0.029
+  exclusion.robots.policy: 0.016
+  esindex: 0.01
+  cdx.remote: 27.672
+  LoadShardBlock: 2724.925 (3)
+  PetaboxLoader3.datanode: 2609.758 (4)
+  PetaboxLoader3.resolve: 444.965 (3)
+  load_resource: 367.979
+*/
